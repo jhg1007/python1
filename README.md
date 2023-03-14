@@ -128,3 +128,15 @@ result = a / b
 print(a, '/', b, '=', result)
 # 제곱, 몫, 나머지
 ```
+
+```
+num1 = input("숫자입력1")
+num2 = input("숫자입력2")
+result = num1 + num2
+print(type(num1))
+print(num1, "+", num2, "=", result)
+```
+
+#### 전화번호, 이름, 무게를 입력받아 출력 :  
+####입력한 내용은 이름 "00", 전화번호 "00"입니다.  
+무게는 입력한 g수 x 10원 = 산출 금액 출력
