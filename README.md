@@ -113,4 +113,18 @@ b = 200
 sum = a + b  
 print(a, '+' , b, '=', sum)  
 ```
+#### input() 함수 이용한 계산기  
 
+```
+a = int (input( "첫번째 숫자를 입력해 주세요: "))
+b = int (input( "두번째 숫자를 입력해 주세요; "))
+result = a + b
+print(a, '+', b, '=', result)
+result = a - b
+print(a, '-', b, '=', result)
+result = a * b
+print(a, '*', b, '=', result)
+result = a / b
+print(a, '/', b, '=', result)
+# 제곱, 몫, 나머지
+```
