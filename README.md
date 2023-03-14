@@ -9,11 +9,11 @@ python Learning Repository
 * 16진수 : 0xFF, 0x0D, 0x0A  
 
 ***
-a = 10
-b = 20
-c = a + b
-d = b -a
-print(c, d)
+a = 10  
+b = 20  
+c = a + b  
+d = b -a  
+print(c, d)  
 ***  
 
 #### 변수 
