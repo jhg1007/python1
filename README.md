@@ -1,6 +1,8 @@
 # python1  
 python Learning Repository  
 
+# **ch1 파이썬 문법**  
+
 ## 자료형  
 #### 숫자형   
 * 정수 : 123, -20, 0    
