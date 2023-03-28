@@ -495,3 +495,40 @@ print(myList)
 cpList = list(fruit)
 print(cpList)
 ```
+
+### 2. Tuple
+
+```
+l = [1,2,3]
+t = (4,5,6)
+l[0] = 5
+print(l)
+# t[0] = 1
+print(t)
+```
+
+```
+f = ["banana","apple","Kiwi","cherry","Orange"]
+print(len(f))
+```
+
+```
+t = ("apple",)
+print(t)
+print(type(t))
+f = ("banana") #튜플로 인식하기 위해서는 ","필요
+print(f)
+print(type(f))
+```
+
+```
+f = ("banana","apple","Kiwi","cherry","Orange")
+print(f[:4])
+print(f[2:])
+```
+
+```
+f = ("banana","apple","Kiwi","cherry","Orange")
+if "apple" in f:
+  print("Yes, 'apple' is in")
+```
