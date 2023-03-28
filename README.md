@@ -344,3 +344,154 @@ for m in range(1,10,1):
     print("%d x %d = %2d \t" % (n,m,m*n), end='')
   print("")
 ```
+
+# CH3. 자료형  
+
+## 1. 인덱스와 슬라이싱
+
+```
+L = [0,1,2,3,4,5,6,7,8,9]
+print(L[0])
+```
+
+```
+L = [0,1,2,3,4,5,6,7,8,9]
+print(L[0:9:3])
+```
+
+```
+L = [0,1,2,3,4,5,6,7,8,9]
+print(len(L))
+print(L[len(L)-1])
+```
+
+```
+L = [0,1,2,3,4,5,6,7,8,9]
+L[0] = 99
+L[9] = '가나다'
+L[1] = [1,2,3]
+print(L)
+print(L[9])
+```
+
+```
+a = [1,2,3]
+b = [4,5,6]
+c = a+b
+print(a+b)
+print(c)
+print(a*3)
+```
+
+```
+L = [1,2,3,4,5,]
+print(L)
+L.append(6) #리스트 뒤에 추가
+print(L)
+L.remove(3) #해당 요소값을 삭제
+print(L)
+```
+
+```
+k = ['a','b','c','d']
+k.remove('d')
+print(k)
+```
+
+```
+k = "god is love!"
+print(k[:3])
+print(k[6:])
+print(k[-8:-2])
+```
+
+```
+k = "god is love!"
+print(k.upper())
+print(k.lower())
+print(k.strip())
+```
+
+```
+a = "god, is, love!"
+print(a.split(","))
+```
+
+```
+a = ["apple","banana","cherry"]
+a.append("cherry") #팬뒤에 추가
+print(a)
+```
+
+```
+a = ["apple","banana","cherry"]
+a.insert(1,"oreange") #지정한 곳에 삽입
+print(a)
+```
+
+```
+a = ["apple","banana","cherry"]
+a.remove("banana")
+print(a)
+```
+
+```
+a = ["apple","banana","cherry"]
+a.pop() # 맨뒤 삭제
+print(a)
+a.pop(1) # 지정한 위치 삭제
+print(a)
+```
+
+```
+a = ["apple","banana","cherry"]
+del a[0]
+print(a)
+a.clear() # del a
+print(a)
+```
+
+```
+fruit = ["apple","banana","cherry"]
+for x in fruit:
+  print(x)
+```
+
+```
+fruit = ["apple","banana","cherry"]
+for i in range(len(fruit)):
+  print(fruit)
+```
+
+```
+a = [5,3,6,8,1,9,0]
+a.sort()
+print(a)
+```
+
+```
+a = [5,3,6,8,1,9,0,2,4,7]
+a.sort(reverse = True)
+print(a)
+a.sort()
+print(a)
+```
+
+```
+fruit = ["banana","apple","Kiwi","cherry","Orange"]
+fruit.sort() # 대소문자 구분하여 정렬
+print(fruit)
+fruit.sort(key = str.lower) # 대소문자 구분 없이 정렬
+print(fruit)
+fruit.reverse() # 항목의 순서를 반대로 바꿈
+print(fruit)
+```
+
+```
+# list 복사
+fruit = ["banana","apple","Kiwi","cherry","Orange"]
+myList = fruit.copy()
+print(myList)
+cpList = list(fruit)
+print(cpList)
+```
