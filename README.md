@@ -531,4 +531,41 @@ print(f[2:])
 f = ("banana","apple","Kiwi","cherry","Orange")
 if "apple" in f:
   print("Yes, 'apple' is in")
+else:
+  print("no")
+```
+
+#### list<->tuple
+
+```
+firm = ["Samsung","LG","SK"]
+tdate = tuple(firm)
+print(firm)
+print(tdate)
+```
+
+```
+# tuple에 추가
+t = ("banana","apple","Kiwi","cherry")
+y = list(t)
+y.append("orange")
+t = tuple(y)
+print(t)
+```
+
+```
+t = ("banana","apple","cherry")
+q = ("kiwi",)
+t += q
+print(t)
+```
+
+```
+t = ("banana","apple","cherry","kiwi")
+l = list(t)
+l.remove("apple")
+t = tuple(l)
+print(t)
+del t
+# print(t)
 ```
