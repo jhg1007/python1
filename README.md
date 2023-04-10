@@ -569,3 +569,126 @@ print(t)
 del t
 # print(t)
 ```
+
+####3.dict 사전자료형
+
+```
+d = {
+    'a':1,
+    'b':2,
+    'c':3
+}
+print(d)
+print(d.keys())
+print(d.values())
+print(d.items())
+```
+
+```
+car = {
+    "brand" : "BMW",
+    "model" : "GT",
+    "year" : "1988",
+}
+print(car)
+print(len(car))
+car["year"] = 2000
+car["item"] = 123456
+car.update({"color" : "red"})
+print(car)
+```
+
+```
+# 항목 제거
+car = {
+    "brand" : "BMW",
+    "model" : "GT",
+    "year" : 1988
+}
+car.pop("model")
+print(car)
+```
+
+```
+car = {
+    "brand" : "BMW",
+    "model" : "GT",
+    "year" : 1988
+}
+car.popitem()
+print(car)
+```
+
+```
+car = {
+    "brand" : "BMW",
+    "model" : "GT",
+    "year" : 1988
+}
+car.clear() # 비움
+del car # 삭제 
+```
+
+####LOOP
+
+```
+car = {
+    "brand" : "BMW",
+    "model" : "GT",
+    "year" : 1988
+}
+for x in car.keys():
+  print(car[x])
+```
+
+```
+car = {
+    "brand" : "BMW",
+    "model" : "GT",
+    "year" : 1988
+}
+for x in car.values():
+  print(x)
+```
+
+```
+car = {
+    "brand" : "BMW",
+    "model" : "GT",
+    "year" : 1988
+}
+for x,y in car.items():
+  print(x,y
+```
+
+```
+car = {
+    "brand" : "BMW",
+    "model" : "GT",
+    "year" : 1988
+}
+myCar = car.copy()
+print(myCar)
+```
+
+```
+car = {
+    "brand" : "BMW",
+    "model" : "GT",
+    "year" : 1988
+}
+myCar = dict(car)
+print(myCar)
+```
+
+```
+name1 = {"name":"홍길동", "year":2001}
+name2 = {"name":"갑들이", "yeer":2010}
+name3 = {"name":"갑순이", "year":2003}
+family = {
+    "name1" :name1,
+    "name2" :name2,
+    "name3" :name3
+}
+print(family)
+```
